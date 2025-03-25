@@ -1,0 +1,54 @@
+#/run/numberOfThreads 4  # for multithread mode
+#
+/run/initialize
+#
+/control/verbose 1
+/run/verbose 1
+/event/verbose 0
+/tracking/verbose 1
+/run/setCut 1 nm
+#/cuts/setLowEdge 200 eV
+#
+/gun/particle alpha
+/gun/energy 4 MeV
+#
+/output/path alpha/dna/output001.npz
+/run/beamOn 1
+#/output/path alpha/dna/output002.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output003.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output004.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output005.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output006.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output007.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output008.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output009.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output010.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output011.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output012.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output013.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output014.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output015.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output016.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output017.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output018.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output019.npz
+#/run/beamOn 1
+#/output/path alpha/dna/output020.npz
+#/run/beamOn 1
